@@ -1,4 +1,6 @@
 
+execute pathogen#infect()
+
 " always good
 set nocompatible
 
