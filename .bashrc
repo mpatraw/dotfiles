@@ -11,6 +11,8 @@ setxkbmap -option ctrl:nocaps
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
+export EDITOR=vim
+
 export GOPATH=~/devel
 export PATH=$PATH:$GOPATH/bin:~/tools
 export PATH=$PATH:/opt/android-sdk/tools
