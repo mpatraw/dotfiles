@@ -1,0 +1,7 @@
+
+[options]
+font = Terminus 8
+
+[colors]
+# used to be 63,63,63
+background = rgba(0, 0, 0, 0.9)

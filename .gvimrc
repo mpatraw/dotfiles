@@ -1,2 +1,2 @@
 
-colorscheme slate
+colorscheme desert
