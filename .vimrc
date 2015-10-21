@@ -22,7 +22,8 @@ set wildmenu
 " show partial commands in last line of screen
 set showcmd
 
-set hlsearch
+" commented because annoyance
+"set hlsearch
 
 " keep the same indentation for unrecognized files
 set autoindent
@@ -79,3 +80,12 @@ set colorcolumn=72
 
 " allow dot to be used in visual
 vnoremap . :norm.<CR>
+
+" netrw will open files in 2nd window
+"let g:netrw_chgwin=2
+
+" netrw will open vertically
+"let g:netrw_altv=1
+
+" netrw will open in window of size 72
+"let g:netrw_winsize=72
