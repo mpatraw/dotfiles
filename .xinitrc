@@ -1,2 +1,5 @@
-feh --bg-scale /home/bee/data/bg/tent.jpg
+
+xcompmgr -c &
+./.fehbg &
+
 exec dwm

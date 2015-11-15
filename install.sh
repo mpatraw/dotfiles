@@ -1,9 +1,9 @@
 #!/usr/bin/bash
 
-ln -s .bash_profile ~
-ln -s .bashrc ~
-ln -s .vimrc ~
-ln -s .gvimrc ~
-ln -s .vim ~
-ln -s .config/termite/config ~/.config/termite/config
-ln -s .xinitrc ~
+ln -s $PWD/.bash_profile $HOME
+ln -s $PWD/.bashrc $HOME
+ln -s $PWD/.vimrc $HOME
+ln -s $PWD/.gvimrc $HOME
+ln -s $PWD/.vim $HOME
+ln -s $PWD/.config/termite/config $HOME/.config/termite/config
+ln -s $PWD/.xinitrc $HOME

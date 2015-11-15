@@ -21,3 +21,6 @@ export PATH=$PATH:/opt/android-sdk/tools
 export PATH=$PATH:/opt/android-sdk/platform-tools
 export PATH=$PATH:/opt/android-sdk/build-tools
 
+if which ruby >/dev/null && which gem >/dev/null; then
+	PATH="$(ruby -rubygems -e 'puts Gem.user_dir')/bin:$PATH"
+fi
