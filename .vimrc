@@ -1,4 +1,4 @@
-
+set nocp
 execute pathogen#infect()
 
 " always good
