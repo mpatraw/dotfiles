@@ -1,5 +1,9 @@
 
+
+# Remap CapsLock to Ctrl.
+setxkbmap -option ctrl:nocaps
+
 xcompmgr -c &
 ./.fehbg &
 
-exec dwm
+exec i3
