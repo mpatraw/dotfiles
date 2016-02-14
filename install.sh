@@ -10,3 +10,4 @@ ln -s $PWD/.config/i3 $HOME/.config/i3
 ln -s $PWD/.emacs.d $HOME
 ln -s $PWD/.config/termite $HOME/.config/termite
 ln -s $PWD/.xinitrc $HOME
+ln -s $PWD/.ycm_extra_conf.py $HOME
