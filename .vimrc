@@ -89,3 +89,5 @@ vnoremap . :norm.<CR>
 
 " netrw will open in window of size 72
 "let g:netrw_winsize=72
+
+let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
