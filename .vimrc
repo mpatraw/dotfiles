@@ -91,3 +91,4 @@ vnoremap . :norm.<CR>
 "let g:netrw_winsize=72
 
 let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
+let g:ycm_always_populate_location_list = 1
