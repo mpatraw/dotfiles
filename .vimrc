@@ -46,7 +46,8 @@ set t_vb=
 set cmdheight=1
 
 " start out with relative numbers
-set relativenumber
+"set relativenumber
+set number
 
 " toggle line numbers hotkey
 function! NumberToggle()
@@ -56,15 +57,15 @@ function! NumberToggle()
 		set relativenumber
 	endif
 endfunc
-nnoremap <C-n> :call NumberToggle()<cr>
+"nnoremap <C-n> :call NumberToggle()<cr>
 
 " setting based on focus
-au FocusLost * :set number
-au FocusGained * :set relativenumber
+"au FocusLost * :set number
+"au FocusGained * :set relativenumber
 
 " set automatically based on insert/command mode
-autocmd InsertEnter * :set number
-autocmd InsertLeave * :set relativenumber
+"autocmd InsertEnter * :set number
+"autocmd InsertLeave * :set relativenumber
 
 " quickly time out on keycodes, but not on mapping
 set notimeout ttimeout ttimeoutlen=200
